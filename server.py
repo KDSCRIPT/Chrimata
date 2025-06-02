@@ -3,6 +3,7 @@ from main import main  # assuming main() is in main.py
 from inputs import InputData
 from rag_implementation import main1
 from qanda import initialize_chatbot, get_chatbot_response  # <-- Import your chatbot logic
+import os
 
 app = Flask(__name__)
 
@@ -54,4 +55,6 @@ def ask_chatbot():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
+
