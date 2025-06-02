@@ -114,7 +114,7 @@ def generate_final_summary(business_context, analyzed_task):
     summary_json = json.dumps(summary, indent=2, default=str)
     print("\n✅ Workflow Discovery Summary (JSON - Industrialist Focused):")
 
-    filename = f"industrial_workflow_summary.json"
+    filename = f"summaries/industrial_workflow_summary.json"
     try:
         with open(filename, 'w') as f:
             f.write(summary_json)

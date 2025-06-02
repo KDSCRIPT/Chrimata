@@ -1,12 +1,3 @@
-# import requests
-# from inputs import InputData
-# import json
-
-# inputs = InputData()
-# payload = json.dumps(inputs.__dict__)
-
-# res = requests.post("http://localhost:5000/run-workflow", data=payload, headers={"Content-Type": "application/json"})
-# print(res.json())
 import requests
 import json
 

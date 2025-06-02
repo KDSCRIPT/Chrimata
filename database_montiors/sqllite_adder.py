@@ -2,11 +2,11 @@ import json
 import sqlite3
 
 # Load JSON data from file
-with open('data.json', 'r') as f:
+with open('data/data.json', 'r') as f:
     data = json.load(f)  # data is a list of dicts
 
 # Connect to SQLite DB (or create)
-conn = sqlite3.connect('agents.db')
+conn = sqlite3.connect('data/agents.db')
 cursor = conn.cursor()
 
 # Create table with columns matching JSON keys

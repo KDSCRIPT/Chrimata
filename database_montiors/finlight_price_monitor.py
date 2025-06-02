@@ -1,11 +1,18 @@
 import sqlite3
 from finlight_client import FinlightApi, ApiConfig
 from finlight_client.models import GetArticlesParams
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 
 # Initialize Finlight client once
 client = FinlightApi(
     config=ApiConfig(
-        api_key="sk_a7c538f8cf9f7b36483c96c06a8b37fdb07e1045ea01e6f54f4478f3b414bbcb"
+        api_key=os.getenv("FINLIGHT_API_KEY")
     )
 )
 
@@ -39,7 +46,7 @@ def analyze_articles_and_update(name, current_input_price, current_output_price)
 
     if price_change_flag:
         # Update both Input Price and Output Price in SQLite DB with the flag message
-        conn = sqlite3.connect('agents.db')
+        conn = sqlite3.connect('data/agents.db')
         cursor = conn.cursor()
         cursor.execute(
             "UPDATE agents SET InputPrice = ?, OutputPrice = ? WHERE Name = ?",
@@ -53,7 +60,7 @@ def analyze_articles_and_update(name, current_input_price, current_output_price)
 
 def main():
     # Connect to DB and fetch all agent names and their prices
-    conn = sqlite3.connect('agents.db')
+    conn = sqlite3.connect('data/agents.db')
     cursor = conn.cursor()
     cursor.execute("SELECT Name, InputPrice, OutputPrice FROM agents")
     agents = cursor.fetchall()

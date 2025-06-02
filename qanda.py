@@ -1,13 +1,13 @@
 import google.generativeai as genai
-import json
-import os
 from datetime import datetime
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
 # Global variables for caching
 _workflow_report = None
 _gemini_model = None
 
-def initialize_chatbot(api_key="AIzaSyBxESJZhk8uUUMzJxJUZou-eu3b5pIrn6A", report_file_path="C:\VIT\\100xengg\modularized_code\workflow_formal_report.txt"):
+def initialize_chatbot(api_key=os.getenv("GEMINI_API_KEY"), report_file_path="reports/workflow_formal_report.txt"):
     """
     Initialize the chatbot components (call this once when server starts)
     
