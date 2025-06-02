@@ -2,7 +2,7 @@ import requests
 import json
 
 # Define the URL of your running Flask server
-url = "http://127.0.0.1:5000/ask-chatbot"
+url = "http://127.0.0.1:5000/workflow"
 
 # Sample input data
 payload = {
