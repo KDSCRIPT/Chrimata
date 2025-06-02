@@ -1,0 +1,2 @@
+2025-06-02 10:11:22,805 - INFO - Session Replay for default trace: https://app.agentops.ai/sessions?trace_id=ba761ec9dba2497cbe52dbcd5bd0da41
+2025-06-02 10:11:22,805 - INFO - @agentops.session decorator is deprecated. Please use @agentops.trace instead.
