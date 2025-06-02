@@ -33,11 +33,17 @@ It guides teams through a structured workflow—identifying automation opportuni
 
 graph TD
 A[Input JSON or User] --> B(main.py - 7-Step Workflow)
+
 B --> C[Workflow Summary JSON]
+
 C --> D[RAG Pipeline (rag_implementation.py)]
+
 D --> E[Agent Matching, Cost Calculation, Implementation Plan]
+
 E --> F[Formal Report Generation]
+
 F --> G[Chatbot Q&A (qanda.py)]
+
 G --> H[API Server (server.py)]
 
 
@@ -92,7 +98,9 @@ python server.py
 Send a POST request to `/run-workflow` with your enterprise context as JSON.
 
 curl -X POST http://localhost:5000/run-workflow
+
 -H "Content-Type: application/json"
+
 -d @sample_input.json
 
 ### 3. Chat with the Advisor
@@ -100,7 +108,9 @@ curl -X POST http://localhost:5000/run-workflow
 Ask follow-up questions about the generated report:
 
 curl -X POST http://localhost:5000/ask-chatbot
+
 -H "Content-Type: application/json"
+
 -d '{"question": "How can I reduce LLM inference costs?", "include_report_context": true}'
 
 ---
