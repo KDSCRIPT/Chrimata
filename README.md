@@ -70,8 +70,11 @@ G --> H[API Server (server.py)]
 - [Optional] Lyzr Studio account for workflow management
 
 git clone https://github.com/your-org/ai-cost-optimization-advisor.git
+
 cd ai-cost-optimization-advisor
-pip install -r requirements.txt
+
+pip install -r requirements.
+
 cp .env.example .env # Fill in your GEMINI_API_KEY
 
 
