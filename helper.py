@@ -2,8 +2,7 @@ import requests,json
 import os
 from dotenv import load_dotenv
 load_dotenv()
-GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={os.getenv("GEMINI_API_KEY")}"
-
+GEMINI_API_URL = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={os.getenv("GEMINI_API_KEY")}'
 
 def get_user_input(prompt_message, multi_line=False):
     """Gets input from the user."""
