@@ -11,7 +11,7 @@ Organizations struggle with GenAI adoption due to:
 - ⚙️ **Overwhelming tool choices** and lack of clarity on where to start
 - 💸 **Unpredictable and opaque costs** across setup, operations, and scaling
 - 🕒 **Manual and time-consuming planning**, delaying deployment
-- 📉 **Difficulty measuring ROI**, making it hard to justify investment
+- 📉 **Difficulty measuring ROI**, making it hard to justify investments
 
 ---
 
