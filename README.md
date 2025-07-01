@@ -8,10 +8,10 @@
 
 Organizations struggle with GenAI adoption due to:
 
-- ⚙️ **Overwhelming tool choices** and lack of clarity on where to start  
-- 💸 **Unpredictable and opaque costs** across setup, operations, and scaling  
-- 🕒 **Manual and time-consuming planning**, delaying deployment  
-- 📉 **Difficulty measuring ROI**, making it hard to justify investment  
+- ⚙️ **Overwhelming tool choices** and lack of clarity on where to start
+- 💸 **Unpredictable and opaque costs** across setup, operations, and scaling
+- 🕒 **Manual and time-consuming planning**, delaying deployment
+- 📉 **Difficulty measuring ROI**, making it hard to justify investment
 
 ---
 
@@ -51,32 +51,32 @@ Organizations struggle with GenAI adoption due to:
 
 ## 📈 Traction
 
-- ⚡ **< 90 Seconds**: Architecture generation time  
-- 💵 **35%**: Average cost savings through optimization  
-- 🧪 **MVP Validated**: Beta version tested and in use  
+- ⚡ **< 90 Seconds**: Architecture generation time
+- 💵 **35%**: Average cost savings through optimization
+- 🧪 **MVP Validated**: Beta version tested and in use
 - ✅ **High Engagement**: Early users report actionable insights and strong usability
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Component            | Purpose                                                       |
-|----------------------|---------------------------------------------------------------|
-| **OpenAI GPT Models**| Architecture generation and requirement analysis              |
-| **FAISS + RAG**      | Vector-based tool retrieval and semantic matching             |
-| **Supabase**         | Backend, user authentication, and real-time updates           |
-| **News API**         | Real-time market data integration                             |
-| **Next.js & React**  | Responsive, modern web interface                              |
-| **Python Analytics** | Cost modeling, savings analysis, and ROI projections          |
+| Component             | Purpose                                              |
+| --------------------- | ---------------------------------------------------- |
+| **OpenAI GPT Models** | Architecture generation and requirement analysis     |
+| **FAISS + RAG**       | Vector-based tool retrieval and semantic matching    |
+| **Supabase**          | Backend, user authentication, and real-time updates  |
+| **News API**          | Real-time market data integration                    |
+| **Next.js & React**   | Responsive, modern web interface                     |
+| **Python Analytics**  | Cost modeling, savings analysis, and ROI projections |
 
 ---
 
 ## 👥 Meet the Team
 
-- **Kanishk K R** – *AI Lead*  
+- **Kanishk K R** – _AI Lead_  
   Specializes in GenAI system design and workflow optimization.
 
-- **Darshan K** – *Full-Stack Developer*  
+- **Darshan K** – _Full-Stack Developer_  
   Focuses on scalable web infrastructure and user experience.
 
 ---
@@ -97,4 +97,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-> ⚡ *Transform your GenAI planning with AI Cost Optimizer — intelligent, transparent, and fast.*
+> ⚡ _Transform your GenAI planning with AI Cost Optimizer — intelligent, transparent, and fast._
