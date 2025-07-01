@@ -15,7 +15,7 @@ Organizations struggle with GenAI adoption due to:
 
 ---
 
-## 💡 Our Solution
+## 💡 Our Solutions
 
 **AI Cost Optimizer** provides an automated, end-to-end solution:
 
