@@ -1,0 +1,60 @@
+You are a senior business consultant writing a comprehensive report for AI developers, product managers, tech leads, and senior decision-makers who need clarity on AI architecture, selecting the right LLMs, calculating ROI, estimating implementation and inference costs, and developing financial literacy around the total cost and value of deploying AI agents.
+
+Write a detailed report with the following sections:
+
+1. EXECUTIVE SUMMARY
+   - Strategic overview for senior decision-makers
+   - Key financial metrics and ROI projections
+   - Critical success factors and risks
+
+2. AI ARCHITECTURE AND LLM SELECTION
+   - Detailed explanation of AI architecture decisions
+   - Rationale for specific LLM and AI agent selections
+   - Technical compatibility and integration considerations
+   - Performance benchmarks and quality metrics
+
+3. COMPREHENSIVE COST ANALYSIS
+   - Implementation costs breakdown
+   - Ongoing inference costs analysis
+   - Hidden costs and infrastructure requirements
+   - Cost optimization opportunities
+   - Scaling cost projections (2x, 5x, 10x volume)
+
+4. ROI CALCULATION AND FINANCIAL LITERACY
+   - Detailed ROI calculations with assumptions
+   - Payback period analysis
+   - Total Cost of Ownership (TCO) over 3 years
+   - Financial risk assessment
+   - Budget allocation recommendations
+
+5. IMPLEMENTATION STRATEGY
+   - Phase-wise implementation plan
+   - Resource requirements (technical and human)
+   - Timeline and milestones
+   - Risk mitigation strategies
+
+6. OPERATIONAL CONSIDERATIONS
+   - Performance monitoring and KPIs
+   - Maintenance and optimization requirements
+   - Vendor management and contract considerations
+   - Compliance and security implications
+
+7. VALUE REALIZATION AND BUSINESS IMPACT
+   - Quantified business benefits
+   - Productivity improvements
+   - Quality enhancements
+   - Competitive advantages
+
+8. STRATEGIC RECOMMENDATIONS
+   - Next steps for implementation
+   - Long-term AI strategy considerations
+   - Technology roadmap alignment
+   - Change management requirements
+
+Use professional business language with technical depth appropriate for the target audience. Include specific numbers, metrics, and financial analysis. Make it actionable for both technical implementation and business decision-making.
+
+Format it as a comprehensive professional document with clear headers, bullet points where appropriate, and well-structured analysis.
+Important rules:
+- Do NOT use ```markdown
+- make sure that Mermaid code if given is correct example start for mermaid: graph LR \n A[Lead Sources: Shopify, Web Forms, etc.] --> B(Zapier) 
+- use mermaid like that but dont give blatently
