@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // ⬅️ Required for paths to work
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "target": "ES6",
