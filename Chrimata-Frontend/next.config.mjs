@@ -1,3 +1,10 @@
+import path from "path";
+import { fileURLToPath } from "url";
+
+/** Needed because __dirname isn't available in ES modules */
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -9,6 +16,13 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  webpack(config) {
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      "@": path.resolve(__dirname),
+    };
+    return config;
+  },
+};
 
-export default nextConfig
+export default nextConfig;
