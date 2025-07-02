@@ -1,6 +1,6 @@
-# 🧠 AI Cost Optimizer
+# 🧠 Chrimata
 
-**AI Cost Optimizer** is an intelligent platform designed to plan, optimize, and analyze the costs of Generative AI (GenAI) workflows. It enables organizations to accelerate AI adoption by automatically generating architectures, recommending the best-fit tools, providing transparent cost breakdowns, and projecting ROI—fully tailored to your specific use case.
+**Chrimata** is an intelligent platform designed to plan, optimize, and analyze the costs of Generative AI (GenAI) workflows. It enables organizations to accelerate AI adoption by automatically generating architectures, recommending the best-fit tools, providing transparent cost breakdowns, and projecting ROI—fully tailored to your specific use case.
 
 ---
 
@@ -17,7 +17,7 @@ Organizations struggle with GenAI adoption due to:
 
 ## 💡 Our Solutions
 
-**AI Cost Optimizer** provides an automated, end-to-end solution:
+**Chrimata** provides an automated, end-to-end solution:
 
 - ⚡ **AI-Powered Workflow Generator**  
   Auto-generates optimal GenAI architectures based on your requirements using OpenAI models.
@@ -74,10 +74,10 @@ Organizations struggle with GenAI adoption due to:
 ## 👥 Meet the Team
 
 - **Kanishk K R** – _AI Lead_  
-  Specializes in GenAI system design and workflow optimization.
+  GenAI system design and workflow optimization.
 
 - **Darshan K** – _Full-Stack Developer_  
-  Focuses on scalable web infrastructure and user experience.
+  Eeb infrastructure and user experience.
 
 ---
 
